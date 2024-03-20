@@ -1,0 +1,189 @@
+*{  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header, section h2, section h3, form button{
+    font-family:  "Orbitron", sans-serif;
+    font-weight: normal;
+}
+body, input, textarea{
+    font-family: "Noto Sans Bengali", sans-serif;;
+}
+header{
+    background-color: #ddefba;
+    padding: 20px;
+    color: #2e3c15;
+    font-weight: normal;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+
+}
+header li a {
+    color: #2e3c15 ;
+    margin-left: 16px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+header h2{
+    font-size: 18px;
+    
+}
+
+body{
+    background-color: #e7e9e1;
+}
+section .container{
+    align-items: flex-start;
+}
+section {
+    padding: 25px 0;
+    color: #2e3c15;
+}
+.friends{ 
+    margin-right: 45px;
+    height: 400px;
+}
+section h2{
+    font-size: 35px;
+}
+section h3{
+    font-size: 25px ;
+    font-weight: bolder;
+}
+section p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+section span{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-size: 150px;
+    font-family: "Orbitron", sans-serif;;
+}
+
+section{
+    padding: 16px 0;
+}
+section h2, .curso-opcao article, .professor article{
+    margin-bottom: 20px;
+}
+.curso-opcao article h3 , .professor article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.curso-opcao article, .professor article{
+    width: 40%;
+}
+.curso-opcao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.curso-opcao  article img{
+    width: 100%;
+}
+.curso-opcao article a {
+    background-color:#2e3c15 ;
+    color: #e7e9e1;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.curso-opcao article a:hover{
+    background-color: #70811c;
+    text-decoration: underline;
+}
+.professor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.professor article img {
+    width: 50%;
+
+}
+.professor article {
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#professor{
+    background-color: #dbdcd6;
+}
+.outro-contato li , .social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.outro-contato li img , .social-links li img {
+    height: 80px;
+    display: block;
+    margin-bottom: 4px;
+    padding: 4px;
+    margin-top: 8px;
+}
+
+.caixacontato{
+    display: flex;
+    justify-content: space-between;
+}
+#contact .container{
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 250px;
+    margin-bottom: 4px;
+    padding: 4px;
+    margin-top: 8px;
+}
+form textarea{
+    resize: none;
+    height: 80px;
+}
+form button{
+    background-color:#2e3c15;
+    color:#dbdcd6;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #70811c;
+}
+footer{
+    background-color: #2e3c15;
+    color:#ecf0f1;
+    padding: 16px;
+
+}
